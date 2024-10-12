@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     background-color: #d5bc92;
     margin: 0px;
@@ -20,16 +23,6 @@ body{
     justify-content: left;
     position: sticky;
     top: 50px;
-}
-
-#right{
-    background-color: azure;
-    border-radius: 5px;
-    width: 900px;
-    height: 2500px;
-    text-align: left;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
-    margin-right: 265px;
 }
 .logo{
     height: 100px;
@@ -94,7 +87,7 @@ body{
 }
 .like{
     width: 100px;
-    height: 20px;
+    height: 25px;
     background-color: #1877F2;
     padding: 3px;
     align-content: center;
@@ -157,5 +150,33 @@ body{
     height: 28px;
     align-content: center;
 }
-
-
+#right{
+    background-color: white;
+    border-radius: 5px;
+    width: 900px;
+    height: 2500px;
+    text-align: left;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    margin-right: 265px;
+    padding: 20px;
+}
+.about-us{
+    color: #6b4d26;
+    margin: 0px 0px 21.44px;
+    padding: 0px;
+}
+.video{
+    display: block;
+    margin: 0px;
+}
+.our-story{
+    display: block;
+    margin: 19.92px 0px;
+}
+.p1{
+    margin: 22px 0px;
+    height: 27.2px;
+}
+.a1{
+    color: forestgreen;
+}
