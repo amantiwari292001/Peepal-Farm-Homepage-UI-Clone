@@ -25,7 +25,7 @@ body{
     top: 50px;
 }
 .logo{
-    height: 100px;
+    height: 50px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -33,31 +33,31 @@ body{
 }
 .logo a{
     text-decoration: none;
-    height: 40px;
 }
 #logo-img img{
-    margin: 0px;
-    padding: 0px;
     width: 58px;
 }
-.site-name p{ 
-    margin-top: 5px;
+.site-name{ 
+    margin-top: 2px;
     padding: 0px;
     height: 40px;
     font-family: "Archivo Narrow", sans-serif;
     font-size: 32px;
     font-weight: bold;
-    color: #6b4d26;
+    color: #5c4528;
+    align-content: center;
 }
-.site-name p:hover{
+.site-name:hover{
     color: #0c0905;
 }
 .links{
     display: flex;
     flex-direction: column;
-    margin-top: 2px;
+    justify-content: space-around;
+    margin-top: 56px;
 }
 .links a{
+    display: block;
     margin-top: 15.25px;
     height: 24.8px;
     font-size: 18px;
@@ -120,7 +120,7 @@ body{
 .subscribe{
     margin-top: 20px;
     width: 124px;
-    height: 20px;
+    height: 18px;
     background-color: red;
     display: flex;
     justify-content: space-between;
@@ -154,7 +154,7 @@ body{
     background-color: white;
     border-radius: 5px;
     width: 900px;
-    height: 2500px;
+    height: 2310px;
     text-align: left;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
     margin-right: 265px;
@@ -173,10 +173,35 @@ body{
     display: block;
     margin: 19.92px 0px;
 }
-.p1{
-    margin: 22px 0px;
-    height: 27.2px;
-}
 .a1{
     color: forestgreen;
 }
+p{
+    display: block;
+    line-height: 1.7;
+    margin: 16px 0px;
+}
+.founder-philosophy{
+    margin: 19.92px 0px;
+}
+.why-peepal-farm{
+    margin: 19.92px 0px;
+}
+li{
+    margin: 0px;
+    line-height: 1.7;
+}
+.vision{
+    margin: 19.92px 0px;
+}
+.mission{
+    margin: 19.92px 0px;
+}
+.methodology{
+    margin: 19.92px 0px
+}
+.help-animals{
+    margin: 19.92px 0px;
+}
+
+
